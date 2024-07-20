@@ -1,0 +1,58 @@
+div.digiinformation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 15px;
+}
+
+div.digiinformation > div.bar:first-of-type {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div.digiinformation > div.bar:first-of-type > a {
+    font-family: IranYekan;
+    font-size: 12px;
+    padding:0 10px;
+    border: 1px solid rgb(224,224,226);
+    border-radius: 10px;
+    color: rgb(161,163,168);
+}
+
+div.digiinformation > div.bar:first-of-type > a > span {
+    position: relative;
+    top: 5px;
+    right: 5px;
+
+}
+
+div.digiinformation > div.bar:first-of-type > span:first-of-type {
+    flex-grow: 2;
+}
+
+
+
+
+
+div.digiinformation > div.bar:last-of-type  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+div.digiinformation > div.bar:last-of-type > span {
+    font-family: IranYekan;
+    font-family: IranSansNum;
+    font-size: 14px;
+    color: rgb(63,64,100);
+    font-weight: 500;
+}
+
+
+

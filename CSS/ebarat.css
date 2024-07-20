@@ -1,0 +1,14 @@
+div.ebarat {
+    width: 100%;
+    margin: 15px auto;
+    padding: 15px 0;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+div.ebarat > span {
+    font-family: IranYekan;
+    font-size: 10px;
+    direction: rtl;
+    color: rgb(129,133,142);
+}

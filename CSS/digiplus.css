@@ -1,0 +1,143 @@
+div.digiplus {
+    margin: 15px auto;
+    width: 80%;
+    height: 387px;
+    background-color: rgb(148,27,128);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+div.digiplus > div.box1 {
+    background-color: white;
+    width: 32.5%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    margin: 15px 0;
+
+}
+
+div.digiplus > div.box1:first-of-type{
+    border-radius: 15px 0 0 15px;
+}
+
+div.digiplus > div.box1:nth-of-type(2) {
+    border-radius: 0 15px 15px 0;
+
+}
+
+div.digiplus > div.box1 > div.header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+div.digiplus > div.box1 > div.header > div.item {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    direction: rtl;
+    font-family: IranYekan;
+    font-size: 14px;
+}
+
+
+div.digiplus > div.box1 > div.header > div.item > a {
+    width: 100;
+    font-size: 12px;
+    font-family: IranYekan;
+    color: rgb(186,96,164);
+    font-weight: 600;
+    padding-top: 4%;
+
+}
+
+div.digiplus > div.box1 > div.header > div.item:first-of-type > span{
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+
+div.digiplus > div.box1 > div.header > div.item:last-of-type > span{
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+
+div.digiplus > div.box1 > div.itemcontainer {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+div.digiplus > div.box1 > div.itemcontainer > a {
+    width: 30%;
+    height: 116px;
+    position: relative;
+
+
+}
+
+div.digiplus > div.box1 > div.itemcontainer > a > img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+
+
+div.digiplus > div.box2 {
+    width: 30%;
+    height: 90%;
+    margin: 15px 0;
+    background-image: url(../media/16_digiplus/mashina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    font-family: IranYekan;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+div.digiplus > div.box2 > p{
+    font-size: 15px;
+}
+div.digiplus > div.box2 > a{
+    margin-top: 15px;
+    display: inline;
+    padding: 0 22px 10px 22px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 600;
+}
+div.digiplus > div.box2 > a > span{
+    position: relative;
+    top: 8px;
+    right: 5px;
+}

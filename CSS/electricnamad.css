@@ -1,0 +1,102 @@
+div.electricnamad {
+    width: 100%;
+    margin: 15px auto;
+    padding:0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+div.electricnamad > div.items {
+    width: 29%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+div.electricnamad > div.items > a {
+    width: 109px;
+    height: 109px;
+    border: 1px solid rgb(240,240,241);
+    border-radius: 10px;
+}
+div.electricnamad > div.items > a:first-of-type {
+    background-image: url(../media/28_namadelectronic/namad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 80%;
+
+}
+div.electricnamad > div.items > a:nth-last-of-type(2) {
+    background-image: url(../media/28_namadelectronic/etehadie.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 80%;
+
+}
+div.electricnamad > div.items > a:last-of-type {
+    background-image: url(../media/28_namadelectronic/rasanedigital.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+
+}
+
+
+div.electricnamad > div.tozihat {
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: IranYekan;
+    font-family: IranSansNum;
+}
+
+div.electricnamad > div.tozihat > span {
+    margin: 15px 0;
+    direction: rtl;
+    font-size: 18px;
+    color: rgb(98,102,109);
+    font-weight: 600;
+
+}
+div.electricnamad > div.tozihat > span:first-of-type {
+    font-size: 24px;
+}
+
+div.electricnamad > div.tozihat > p {
+    direction: rtl;
+    font-size: 13px;
+    color:  rgb(98, 102, 109);
+    font-weight: 500;
+    line-height: 25px;
+}
+div.electricnamad > div.tozihat > p:nth-of-type(2) {
+    color:  rgb(98, 102, 109);
+    opacity: 0.4;
+   
+}
+div.electricnamad > div.tozihat > p > a {
+    color: rgb(96,213,239);
+}
+
+div.electricnamad > div.tozihat > a {
+    display: inline;
+    direction: rtl;
+    font-size: 12px;
+    color: rgb(96,213,239);
+    font-weight: 600;
+
+}
+div.electricnamad > div.tozihat > a > span {
+    position: relative;
+    top: 9px;
+    right: 3px;
+
+}
+
+
+
+

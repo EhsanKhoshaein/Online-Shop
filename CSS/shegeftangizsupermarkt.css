@@ -1,0 +1,123 @@
+div.ShegeftangizSupermarkt {
+    margin: 15px auto;
+    margin-bottom: 0;
+    width: 80%;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-image: url(../media/8_shegeftangizsupermarketi/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+div.ShegeftangizSupermarkt > div.left {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: IranYekan;
+    font-family: IranSansNum;
+    justify-content: center;
+    gap: 7px;
+}
+div.ShegeftangizSupermarkt > div.left > div.item {
+    width: 14%;
+    height: 70%;
+    direction: rtl;
+    transition: all 150ms linear ;
+
+}
+
+div.ShegeftangizSupermarkt > div.left > div.item:hover {
+    scale: 1.12;
+}
+
+div.ShegeftangizSupermarkt > div.left > div.item:first-of-type {
+    scale: 1;
+}
+
+div.ShegeftangizSupermarkt > div.left >div.item > a >  img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+
+}
+
+div.ShegeftangizSupermarkt > div.left >div.item > a > span {
+    background-color: #ef394e;
+    color: white;
+    padding:0 5px;
+    border-radius: 15px;
+    position: relative;
+    top: -35px;
+    left: 0;
+    font-family: IranSansNum;
+    font-size: 12px;
+}
+
+div.ShegeftangizSupermarkt > div.left > div.item:first-of-type {
+    flex-grow: 2;
+    transform: translateY(40%);
+    direction: ltr;
+}
+div.ShegeftangizSupermarkt > div.left > div.item:first-of-type > a {
+    text-align: center;
+    padding: 15px 20px !important;
+    background-color: white;
+    color: rgb(112,174,47);
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 20px !important;
+}
+div.ShegeftangizSupermarkt > div.left > div.item:first-of-type > a > span{
+    background-color: white;
+    font-size: 5px;
+    position: relative;
+    top: 10px;
+    right: 3px;
+}
+
+
+
+
+
+div.ShegeftangizSupermarkt > div.right {
+    width: 48%;
+    height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+div.ShegeftangizSupermarkt > div.right > div.item{
+    width: 24%;
+
+
+}
+div.ShegeftangizSupermarkt > div.right > div.item > a:first-of-type {
+    background-color: rgb(57,174,0);
+    color: whitesmoke;
+    padding: 5px 30px;
+    font-family: IranYekan;
+    font-family: IranSansNum;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 400ms linear;
+}
+div.ShegeftangizSupermarkt > div.right > div.item > a:first-of-type:hover {
+    transform-style: preserve-3d;
+    transform: rotateX(360deg);
+}
+
+div.ShegeftangizSupermarkt > div.right > div.item:last-of-type {
+    position: relative;
+    top: 0;
+    left: 22%;
+}

@@ -1,0 +1,90 @@
+div.HamRahKhadBa {
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 5%;
+}
+
+div.HamRahKhadBa > div.box {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    font-family: IranYekan;
+    direction: rtl;
+    gap: 2%;
+
+}
+
+div.HamRahKhadBa > div.box > p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div.HamRahKhadBa > div.box > a {
+    color: rgb(129,133,139);
+    font-size: 14px;
+}
+div.HamRahKhadBa > div.box:first-of-type{
+    gap: 5%;
+
+}
+
+div.HamRahKhadBa > div.box:first-of-type > div.item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+div.HamRahKhadBa > div.box:first-of-type > div.item > span > {
+    width: 18%;
+}
+
+div.HamRahKhadBa > div.box:first-of-type > p:first-of-type{
+    font-size: 16px;
+}
+
+div.HamRahKhadBa > div.box:first-of-type > p:last-of-type{
+    font-size: 15px;
+    text-align: justify;
+}
+
+div.HamRahKhadBa > div.box:first-of-type > div.item > span > a > img {
+    width: 100%
+}
+
+div.HamRahKhadBa > div.box:first-of-type > div.email {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+div.HamRahKhadBa > div.box:first-of-type >  div.email > a {
+    color: white;
+    background-color: rgb(224,224,226);
+    padding-right: 10px;
+    padding-top: 3px;
+    border-radius: 7px;
+    flex-grow: 1;
+}
+
+div.HamRahKhadBa > div.box:first-of-type > div.email > input {
+    color: rgb(161,163,168);
+    padding:5px 15px 5px 15px;
+    background-color: rgb(240,240,241);
+    border-radius: 10px;
+    font-family: IranYekan;
+    font-size: 16px;
+    border: none;
+    flex-grow: 5;
+}
+
+
+
+
+
+

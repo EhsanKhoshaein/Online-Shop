@@ -1,0 +1,10 @@
+.dastebandititle{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.dastebandititle > span {
+    font-family: IranYekan;
+    font-size: 24px;
+    margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+.foursquareboxes {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 330px;
+    justify-content:center ;
+    align-items: center;
+    gap: 18px;
+
+}
+
+.foursquareboxes > a {
+    width: 20%;
+    height: inherit;
+}
+.foursquareboxes a > img {
+    width: 100%;
+    border-radius: 20px;
+
+}

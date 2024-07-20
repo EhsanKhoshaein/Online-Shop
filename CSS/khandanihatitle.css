@@ -1,0 +1,30 @@
+.khandanihatitle {
+    width: 80%;
+    margin: 15px auto;
+    margin-bottom: 0;
+    padding:20px;
+    font-family: IranYekan;
+    display: flex;
+    flex-direction: row;
+    
+}
+.khandanihatitle > a {
+    flex-grow: 1;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(25,191,219);
+}
+
+.khandanihatitle > a > span > img { 
+    position: relative;
+    top: 8px;
+    left: 0;
+}
+
+.khandanihatitle > span {
+    flex-grow: 6;
+}
+.khandanihatitle > h4 {
+    flex-grow: 1;
+    direction: rtl;
+}

@@ -1,0 +1,121 @@
+@font-face {
+    font-family: IranYekan;
+    src: url(../fonts/IRANYekanRegular.ttf)
+}
+@font-face {
+    font-family: IranSansNum;
+    src: url(../fonts/farsiNumbers/Webfonts/Woff2/IRANSansXFaNum-Light.woff2);
+}
+
+
+section.shegeftangiz {
+    width: 80%;
+    background-color: #ef394f;
+    padding: 25px;
+    margin: 10px auto;
+    border-radius: 25px;
+    direction: rtl;
+
+}
+div.product {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+div.product:nth-of-type(2) {
+    border-radius: 0 10px 10px 0;
+}
+div.product:last-of-type {
+    border-radius: 10px 0 0 10px;
+}
+
+div.product > img {
+    width: 100%;
+}
+
+div.product > div.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: 15px 0;
+    font-family: IranSansNum;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(69,64,100);
+}
+div.product > div.price > span {
+    padding: 5px 10px;
+    background-color: #ef394f;
+    border-radius: 50px;
+    font-family: IranSansNum;
+    font-size: 12px;
+    color: white;
+}
+
+div.product > div.price  img {
+    width: 20px;
+    object-fit: contain;
+    align-items: center;
+
+}
+div.product > div.price > div.finalprice {
+    display: flex;
+
+}
+div.product > div.oldprice {
+    text-align: end;
+    padding-right: 50px;
+}
+div.product > div.oldprice > span {
+    font-family: IranSansNum;
+    color: #b2b2b3;
+    text-decoration: line-through 2px solid #b2b2b3;
+    font-size: 14px;
+    
+}
+
+
+.swiper-button-next , .swiper-button-prev {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    right:10px;
+    padding: 30px;
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
+}
+
+
+.background {
+    background-color: #ef394f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background > img{
+    width: 60%;
+    display: inline-block;
+}
+
+.background > a {
+    font-family: IranYekan;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.background > a > span{
+    width: 5px;
+    height: 5px;
+    position: relative;
+    top: -26px;
+    left: -75px;
+}
+.background > a > span > img{
+    width: 40%;
+    height: 40%;
+}
+

@@ -1,0 +1,32 @@
+div.emkanat {
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+}
+
+div.emkanat > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: IranYekan;
+}
+div.emkanat > a > span {
+    width: 60%;
+}
+div.emkanat > a > span > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+div.emkanat > a > p {
+    font-family: IranYekan;
+    font-size: 10px;
+    color: rgb(75,93,133);
+
+}
+

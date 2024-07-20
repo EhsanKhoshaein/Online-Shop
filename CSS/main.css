@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: IranYekan;
+    src: url(../fonts/IRANYekanRegular.ttf)
+}
+@font-face {
+    font-family: IranSansNum;
+    src: url(../fonts/farsiNumbers/Webfonts/Woff2/IRANSansXFaNum-Light.woff2);
+}
+a {
+    text-decoration: none
+}
+
+@import"./chat.css";
+@import "./preheader.css";
+@import "./header.css";
+@import"./mapmenu.css";
+@import "./storyviewer.css";
+@import "./jetpay.css";
+@import "./foursquareboxes.css";
+@import "./dastebandititle.css";
+@import "./dastebandi.css";
+@import "./firsttworecktangleboxes.css";
+@import "./pishnahadtitle.css";
+@import "./pishnahad.css";
+@import "./secondtworecktangleboxes.css";
+@import"./watheadcovmob.css";
+@import"./digiplus.css";
+@import"./digiclub.css";
+@import"./shoelapmusbook.css";
+@import"./shegeftangizsupermarkt.css";
+@import"./RayBan.css";
+@import"./haraj.css";
+@import"./khandanihatitle.css";
+@import"./khandaniha.css";
+@import"./digiinformation.css";
+@import"./emkanat.css";
+@import"./hamrahkhadba.css";
+@import"./downloaddigi.css";
+@import"./line.css";
+@import"./electricnamad.css";
+@import"./ebarat.css";
+@import"./blocks.css";
+@import"./shegeftangiz.css";
+@import"./slider.css";
+
+

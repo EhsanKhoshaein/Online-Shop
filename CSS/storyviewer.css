@@ -1,0 +1,35 @@
+
+div.storyviewer {
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+    
+}
+
+div.storyviewer > a {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    scale: 1;
+    transition: all 200ms linear;
+}
+div.storyviewer > a > p{
+    font-family: IranYekan;
+    font-size: 14px;
+    color: black;
+
+}
+
+div.storyviewer > a:hover {
+    scale: 1.1;
+}

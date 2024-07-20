@@ -1,0 +1,22 @@
+div.secondtworecktangleboxes {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 50px 0;
+
+}
+
+div.secondtworecktangleboxes  > a {
+    display: inline-block;
+    width: 37%;
+    height: 197px;
+}
+
+div.secondtworecktangleboxes > a > img  {
+    width: 100%;
+    border-radius: 15px;
+}

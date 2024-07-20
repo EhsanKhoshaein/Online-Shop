@@ -1,0 +1,116 @@
+div.WatHeadCovMob {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+div.WatHeadCovMob > div.container {
+    width: 20%;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border: 1px solid rgb(224,224,226);
+    font-family: IranYekan;
+    color: black;
+    margin: 10px 0;
+
+}
+
+div.WatHeadCovMob > div.container:first-of-type {
+    border-radius: 15px 0 0 15px;
+}
+
+div.WatHeadCovMob > div.container:last-of-type {
+    border-radius: 0 15px 15px 0;
+}
+
+div.WatHeadCovMob > div.container > h4 {
+    padding-top: 5%;
+    padding-right: 5%;
+    color: rgb(41,57,116);
+    margin-bottom: 10px;
+}
+
+div.WatHeadCovMob > div.container > p {
+    margin-bottom: 5%;
+    padding-right: 4%;
+    font-size: 12px;
+    color: rgb(129,133,139);
+}
+
+div.WatHeadCovMob > div.container > div.itemcontainer {
+    width: 100%;
+    height: 129px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+div.WatHeadCovMob > div.container > div.itemcontainer > a {
+    width: 46%;
+    height: 100%;
+    position: relative;
+    border: 1px solid rgb(240,240,241);
+    
+}
+
+
+div.WatHeadCovMob > div.container > div.itemcontainer:first-of-type > a:first-of-type{
+    border-left: none;
+    border-top: none;
+}
+
+div.WatHeadCovMob > div.container > div.itemcontainer:first-of-type > a:last-of-type{
+    border-right: none;
+    border-top: none;
+
+}
+
+div.WatHeadCovMob > div.container > div.itemcontainer:last-of-type > a:first-of-type{
+    border-left: none;
+    border-bottom: none;
+}
+div.WatHeadCovMob > div.container > div.itemcontainer:last-of-type > a:last-of-type{
+    border-right: none;
+    border-bottom: none;
+}
+
+
+div.WatHeadCovMob > div.container > div.itemcontainer > a > img {
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 170ms linear !important;
+}
+
+div.WatHeadCovMob > div.container > a {
+    padding-right: 42%;
+    padding-top: 5%;
+    font-family: IranYekan;
+    font-size: 14px;
+    color: rgb(71,191,211);
+
+}
+
+div.WatHeadCovMob > div.container > a > span{
+    position: relative;
+    top: 22%;
+    left: 0;
+}
+
+div.WatHeadCovMob > div.container > div.itemcontainer > a:hover > img{
+    scale: 1.2;
+}

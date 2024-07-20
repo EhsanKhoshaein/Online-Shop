@@ -1,0 +1,10 @@
+.pishnahadtitle{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.pishnahadtitle > span {
+    font-family: IranYekan;
+    font-size: 24px;
+    margin: 0 auto;
+}

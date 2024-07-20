@@ -1,0 +1,60 @@
+div.downloaddigi{
+    width: 98%;
+    height: 75px;
+    padding: 15px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-image: linear-gradient(to right, rgb(76, 86, 108), rgb(66, 86, 133), rgb(60,75,109));
+    gap: 10px;
+    border-radius: 10px;
+}
+
+
+div.downloaddigi > a > img {
+    width: 100%;
+    object-fit: contain;
+}
+div.downloaddigi > a:first-of-type {
+    width: 42px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: white;
+}
+div.downloaddigi > a:nth-of-type(2) {
+    padding-left: 5px;
+    width: 142px;
+    height: 44px;
+    border-radius: 15px;
+}
+div.downloaddigi > a:nth-of-type(3), div.downloaddigi > a:nth-of-type(4) {
+    width: 142px;
+    height: 44px;
+    border-radius: 12px;
+
+}
+
+div.downloaddigi > span:first-of-type {
+    flex-grow: 2;
+}
+
+div.downloaddigi > span:nth-of-type(2){
+    font-family: IranYekan;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+div.downloaddigi > span:last-of-type{
+    width: 44px;
+    height: 44px;
+}
+div.downloaddigi > span:last-of-type > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
